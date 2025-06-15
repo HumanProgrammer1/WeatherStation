@@ -3,5 +3,7 @@ Raspberry Pi Weather Station Code. Use this how you like. It assumes that you ar
 Due to my own personal way of wanting to wiring stuff, you may want to use your own so remember to change that in the script!
 
 How to Install: (assuming that git is install on RPI)
-
+'''
 sudo pip3 install pimoroni-bme280 smbus
+sudo git clone https://github.com/HumanProgrammer1/WeatherStation.git
+'''
