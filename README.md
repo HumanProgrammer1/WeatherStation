@@ -68,4 +68,6 @@ then reboot your system.
 
 From here, just change the scripts and connect your sensors, test the scripts (they need to run with sudo....) and hopefully it works. 
 
+Wind Speed's GPIO pin is 20 and Rainfall GPIO ping is 21. Located as Pins 38 and 40 on the board. 
+
 Enjoy your Meteorology Journey. 
