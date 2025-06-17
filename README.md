@@ -65,3 +65,7 @@ w1-gpio
 w1-therm
 ```
 then reboot your system. 
+
+From here, just change the scripts and connect your sensors, and hopefully it works. 
+
+Enjoy your Meteorology Journey. 
