@@ -20,7 +20,7 @@ Remeber to Enable I2C and SPI in Raspberry Pi Config
 ```
 sudo raspi-config
 ```
-Then Interface>I2C + Interface>SPI
+Then Interface>I2C + Interface>SPI,
 Remember to reboot!
 
 Enter into the Influx terminal: 
