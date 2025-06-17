@@ -4,6 +4,7 @@ Due to my own personal way of wanting to wiring stuff, you may want to use your 
 
 How to Install: (assuming that git is install on RPI)
 ```
-sudo pip3 install pimoroni-bme280 smbus
+sudo pip3 install pimoroni-bme280 smbus --break-system-package
+sudo pip3 install influxdb-client --break-system-package
 sudo git clone https://github.com/HumanProgrammer1/WeatherStation.git
 ```
