@@ -66,6 +66,6 @@ w1-therm
 ```
 then reboot your system. 
 
-From here, just change the scripts and connect your sensors, and hopefully it works. 
+From here, just change the scripts and connect your sensors, test the scripts and hopefully it works. 
 
 Enjoy your Meteorology Journey. 
