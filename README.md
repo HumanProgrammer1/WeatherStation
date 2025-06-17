@@ -1,4 +1,4 @@
-This is my own quick install for reinstalling my weather station OS + Script - feel free to use it!
+This is my own quick install for settubg up my weather station OS + Script - feel free to use it!
 
 Raspberry Pi Weather Station Code. Use this how you like. It assumes that you are using InfluxDB v1 (Important!) and that you want to record data every 30s for Temperature, Pressure, humidity and Wind Speed/Gust. The ground temperature probe (DS18B20) records every 5 minutes. 
 
