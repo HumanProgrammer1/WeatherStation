@@ -10,3 +10,12 @@ sudo pip3 install pimoroni-bme280 smbus --break-system-package
 sudo pip3 install influxdb --break-system-package
 sudo git clone https://github.com/HumanProgrammer1/WeatherStation.git
 ```
+Crontab is used to start the scripts on boot. 
+```
+@reboot sleep 60; sudo /usr/bin/python3 /home/USERNAME/WeatherStation/wind_speed.py
+@reboot sleep 60; sudo /usr/bin/python3 /home/USERNAME/WeatherStation/rainfall.py
+@reboot sleep 60; sudo /usr/bin/python3 /home/USERNAME/WeatherStation/bme280_data.py
+0 */2 * * * sudo reboot
+*/5 * * * * sudo /usr/bin/python3 /home/USERNAME/WeatherStation/DS18B20_therm.py
+@reboot sleep 60; echo '1-1' | sudo tee /sys/bus/usb/drivers/usb/unbind
+```
