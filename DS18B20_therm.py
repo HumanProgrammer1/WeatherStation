@@ -36,7 +36,7 @@ class DS18B20(object):
 
 def write_to_influx(temp_c):
     client = InfluxDBClient(host='localhost', port=8086)
-    client.switch_database('weather_data')
+    client.switch_database('DATABASE')
 
     json_body = [
         {
